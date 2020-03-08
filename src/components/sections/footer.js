@@ -7,13 +7,13 @@ const Footer = () => (
   <FooterWrapper id="footer">
     <FooterColumnContainer>
       <FooterColumn>
-        <span>Features</span>
+        <span>Contact</span>
         <ul>
-          <li>Automation</li>
-          <li>Rewards</li>
+          <li>phone: +358 50 574 7660</li>
+          <li>email: support (at) rescomms.com</li>
         </ul>
       </FooterColumn>
-      <FooterColumn>
+      {/* <FooterColumn>
         <span>Resources</span>
         <ul>
           <li>Compare</li>
@@ -33,10 +33,10 @@ const Footer = () => (
           <li>LinkedIn</li>
           <li>Instagram</li>
         </ul>
-      </FooterColumn>
+      </FooterColumn> */}
     </FooterColumnContainer>
     <BrandContainer>
-      <Logo>Finance</Logo>
+      <Logo>Rescomms Ltd</Logo>
     </BrandContainer>
   </FooterWrapper>
 )

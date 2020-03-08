@@ -8,7 +8,7 @@ import { Container } from "../global"
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(sourceInstanceName: { eq: "product" }, name: { eq: "green-skew" }) {
+      file(sourceInstanceName: { eq: "product" }, name: { eq: "rc_mockup" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid_tracedSVG
@@ -27,23 +27,19 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Testing site</Subtitle>
             <h1>
-              All your money,
-              <br />
-              one account
+              Something is cooking up...
             </h1>
             <h2>
-              We're building next generation personal finance tools. Sign up to
-              get early access.
+              We're building new means to use flexible workforce as the winning formula.
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
               <HeaderInput placeholder="Your email" />
               <HeaderButton>Early access</HeaderButton>
             </HeaderForm>
             <FormSubtitle>
-              Already have a beta account?{" "}
-              <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
+              Already a user?{" "}
+              Sign in through the link provided by your team
             </FormSubtitle>
           </HeaderTextGroup>
           <ImageWrapper>
