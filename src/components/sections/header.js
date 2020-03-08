@@ -27,7 +27,7 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Personal Finance</Subtitle>
+            <Subtitle>Testing site</Subtitle>
             <h1>
               All your money,
               <br />
